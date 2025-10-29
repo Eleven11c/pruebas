@@ -31,3 +31,75 @@ font-size: 14px;
 
 }
 
+.contenedor {
+
+color: blueviolet;
+font-size: 30px;
+align-items: center;
+width: 2000px;
+height: 200px;
+
+padding: 10;
+flex-wrap: wrap;
+display: flex;
+gap: 200px;
+flex-direction: row;
+margin: auto;
+
+}
+
+#caja1 {
+    color: blue;
+    margin: 1px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border: 10px solid;
+    background-color: blue;
+    flex-direction: column;
+    }
+
+#caja2 {
+    color: blue;
+    
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    flex-direction:row;
+    padding: 10px;
+    margin: 1px;
+    }
+
+#caja3 {
+    color: blue;
+   
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    flex-direction: row;
+    padding: 10px;
+        margin: 1px;
+    
+    }
+
+.tabla {
+
+    border:solid blue;
+}
+
+
+.mi_imagen {
+
+width: 100px;
+height: 100px;
+
+
+}
