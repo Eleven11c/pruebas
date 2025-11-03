@@ -29,10 +29,18 @@
         <nav>
 
             <ul>
-              <li><a href="#lista"></a></li>
-              <li><a href="#formulario"></a></li>
-              <li><a href="multimedia"></a></li>
-              <li><a href="imagen"></a></li>
+              <li>
+                <a href="#lista"></a>
+              </li>
+              <li>
+                <a href="#formulario"></a>
+              </li>
+              <li>
+                <a href="#multimedia"></a>
+              </li>
+              <li>
+                <a href="#imagen"></a>
+              </li>
 
             </ul>
 
@@ -50,7 +58,7 @@
 
 
 
-      <section>
+      <section id="lista">
 
         <h2>Listas ordenadas y desordenadas</h2>
         <p>html es un lenguaje de programacion</p>
@@ -62,9 +70,9 @@
         </ul>
 
         <ol>
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
+          <li>Creacion de una pagina html</li>
+          <li>Codigo</li>
+          <li>Variables</li>
 
         </ol>
       </section>
@@ -77,7 +85,30 @@
     <!-- TODO:    Debes crear filas (<tr>) con datos de ejemplo usando <td> para las celdas.                                        -->
 
 
+      <section>
 
+        <h2>Etiquetas para tabla</h2>
+
+        <table border="1">
+          <tr>
+            <th>Producto</th>
+           <th>Precio</th>
+             <th>Cantidad</th>
+          
+          <tr>
+            <td>Lentejas</td>
+            <td>1,20</td>
+            <td>3</td>
+
+          </tr>
+          <tr>
+            <td>Lentejas</td>
+            <td>1,20</td>
+            <td>3</td>
+
+          </tr>
+        </table>
+      </section>
 
     
     <!-- SECCIÓN 5: Imágenes -->
@@ -85,7 +116,14 @@
     <!-- TODO:    título (<h2>) que hable sobre imágenes. Luego, añade una imagen usando la etiqueta <img>, especificando     -->
     <!-- TODO:    la URL de la imagen con el atributo src y una descripción alternativa con alt.                              -->
 
+      <section id="imagen">
+       
+        <h2>Codificacion de una imagen dentro de un archivo html</h2>
+        
+        <img src="./Captura de pantalla 2025-11-03 092011.png">
 
+
+      </section>
 
     
     <!-- SECCIÓN 6: Formularios -->
@@ -100,6 +138,22 @@
     <!-- TODO:     - Un botón para enviar el formulario (<button>).                                                   -->
 
 
+      <section id="formulario">
+        <form>
+
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="name" placeholder="Pon tu nombre aqui">
+
+          <label for="correo">Correo electronico</label>
+          <input type="text" id="nombre" placeholder="pon tu nombre aqui">
+
+        
+        
+        
+        </form>
+
+      </section>
+
 
     
     <!-- SECCIÓN 7: Multimedia -->
@@ -107,8 +161,20 @@
     <!-- TODO:    multimedia. Luego, añade un video usando la etiqueta <video> y define la fuente del video con <source>.    -->
     <!-- TODO:    De igual forma, añade un archivo de audio con la etiqueta <audio> y su fuente.                             -->
 
+      <h2>Multimedia video</h2>
+      
+      
+      <video controls>
+        <source src="./file_example_MP4_480_1_5MG.mp4" type="video/mp4">
+      </video>
 
+      
+      
+      <audio controls>
+      
+        <source src="file_example_MP3_1MG.mp3" type="audio/mp3">
 
+      </audio>
     
     <!-- SECCIÓN 8: Pie de Página -->
     <!-- TODO:    Finalmente, deberás crear un pie de página (<footer>) donde puedes indicar el autor de la página    -->
